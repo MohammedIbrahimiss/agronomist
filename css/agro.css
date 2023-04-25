@@ -1,0 +1,208 @@
+nav {
+    position: absolute;
+    background-color: #191a19;
+    padding: 10px 302.5px;
+    margin: -8px;
+    height: 45px;
+    box-shadow: -2px 1px 5px black;
+}
+
+.box-logo {
+    position: relative;
+    bottom: 15px;
+    right: 240px;
+}
+
+.logo-text {
+    text-decoration: none;
+    color: #4e9f3d;
+    font-size: 20px;
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    position: relative;
+    font-size: 22px;
+    display: flex;
+    font-family: "Arvo", serif;
+    letter-spacing: 1px;
+    bottom: 77px;
+    left: 240px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(189, 179, 179);
+    padding: 17px 10px;
+    text-align: center;
+}
+
+.nav-links a:hover {
+    color: black;
+    background-color: #4e9f3d;
+}
+
+.nav-links select {
+    width: 50px;
+    height: 35px;
+    margin: -8px;
+    background-color: #00000000;
+    color: #328643;
+    font-size: 15px;
+    border: none;
+}
+
+header {
+    background-image: url("/home/kingroot/Downloads/agronomy.co/img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1270px 650px;
+    padding: 500px 500px;
+    margin: -8px;
+}
+
+.head-text-box {
+    position: relative;
+    color: rgba(255, 255, 255, 0.637);
+    background-color: rgba(0, 0, 0, 0.473);
+    font-family: "Bebas Neue", cursive;
+    width: 565px;
+    height: 350px;
+    right: 500px;
+    margin: 0px 0px;
+    padding: 10px 0px 0px 0px;
+    bottom: 350px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+header h1 {
+    font-size: 18px;
+    margin: 10px 20px;
+}
+
+.focus-head {
+    font-size: 26px;
+    color: #328643;
+    text-shadow: 0px 1px 1px black;
+    display: block;
+    line-height: 50px;
+    font-family: "Bebas Neue", cursive;
+}
+
+.button-h {
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    width: 90px;
+    height: 40px;
+    background-color: #4e9f3d;
+    border: none;
+    font-family: "Bebas Neue", cursive;
+    left: 450px;
+    top: 10px;
+    border-radius: 50px 0px;
+}
+
+.button-h:hover {
+    box-shadow: 0 0 10px #4e9f3d, 0 0 40px #4e9f3d, 0 0 90px #4e9f3d;
+}
+
+article {
+    position: relative;
+    bottom: 650px;
+    right: 10px;
+}
+
+article .title-article {
+    font-size: 35px;
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+    letter-spacing: 0.5px;
+}
+
+.container-article {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+article img {
+    width: 70px;
+    margin: 0px 40px;
+}
+
+article .container-article h1 {
+    font-size: 15px;
+    color: #276433;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: "Bebas Neue", cursive;
+}
+
+main {
+    position: relative;
+    background-color: #e86a33;
+    width: 1265px;
+    height: 350px;
+    bottom: 650px;
+    margin: 60px -10px;
+}
+
+main .title-main {
+    color: black;
+    font-size: 35px;
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+    padding-top: 20px;
+}
+
+main p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.699);
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: "Bebas Neue", cursive;
+    text-align: inherit;
+    display: flex;
+    width: 840px;
+    margin: 30px 10px;
+}
+
+.focus-main {
+    font-size: 30px;
+    color: black;
+    font-family: "Bebas Neue", cursive;
+    margin: 0px 30px;
+}
+
+main img {
+    position: absolute;
+    width: 340px;
+    left: 890px;
+    bottom: 60px;
+    box-shadow: 0px 0px 50px black;
+    border-radius: 60px 0px;
+}
+
+.button-main {
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    width: 100px;
+    height: 45px;
+    background-color: #4e9f3d;
+    border: none;
+    font-family: "Bebas Neue", cursive;
+    right: 420px;
+    bottom: 50px;
+    border-radius: 50px 0px;
+}
+
+.button-main:hover {
+    box-shadow: 3px 3px 15px black;
+}
